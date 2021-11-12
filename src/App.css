@@ -1,5 +1,9 @@
+*{
+  background-color: #282c34;
+}
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -15,9 +19,11 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  height: 500px;
+  width: 38%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
