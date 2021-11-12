@@ -1,11 +1,6 @@
-import ListHeader from "./listHeader.js";
-import ListItem from "./listItem.js";
-function List(){
+function List({brand}){
     return (
-        <>
-            <ListHeader title="header"/>
-            <ListItem/>
-        </>
+        <li>{brand}</li>
     )
 }
-export default List;
+export default List
