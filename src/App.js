@@ -1,10 +1,9 @@
 import './App.css';
-// import Add from './Component/add';
-import Todo from './Component/todo';
+import Counter from './Component/counter';
 function App() {
   return (
     <div className = "App App-header">
-      <Todo/>
+      <Counter/>
     </div>
   );
 }
