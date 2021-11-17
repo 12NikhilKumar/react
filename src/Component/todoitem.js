@@ -1,8 +1,9 @@
-const TodoItem = ({id,status,title,handleDelete}) => {
+import styles from './todoitem.module.css';
+const TodoItem = ({id, title})=>{
     return (
-        <div>
-            <span>{`${title}-${status}`}</span>
-            <button onClick={()=>handleDelete(id)}>X</button>
+        <div className={styles.span}>
+            <span>{title}</span>
+            <div className={styles.btn}></div>
         </div>
     )
 }

@@ -3,15 +3,15 @@ import Button from "./button";
 const TodoInput = ({onTaskCreate})=>{
     const [text,setText] = useState("");
     const handleChange = (e)=>{
-        setText(e.target.value);
-    };
+        setText(e.target.value)
+    }
     const handleClick = ()=>{
-        onTaskCreate(text);
-    };
-    return (
+        onTaskCreate(text)
+    }
+    return(
         <div>
-            <input type="text" placeholder="add some thing" value={text} onChange={handleChange}/>
-            <Button title="submit" onClick={handleClick}/>
+            <input type="text" placeholder="add Something" value={text} onChange={handleChange}/>
+            <Button title="Add to the list" onClick={handleClick}/>
         </div>
     )
 }

@@ -1,0 +1,17 @@
+.span{
+    width: 1000px;
+    height: 70px;
+    background-color: aqua;
+    font-size:25px;
+    color: black;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius:10px;
+}
+.btn {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:black;
+}
