@@ -4,7 +4,8 @@ function ListItem({data,handleDelete,updateStatus}){
         <ul>
             {
                 data.map(item =>
-                    <li key={item.id}>{item.title} - {item.description} - {item.status} - <button onClick={()=>handleDelete(item.id)}>Delete</button> - <button onClick={()=>updateStatus(item.id)}>update</button></li>
+                    <li key={item.id}>{item.title} - {item.description} - {item.status} - <button onClick={()=>handleDelete(item.id)}>Delete</button> - <button onClick={()=>updateStatus(item.id)}>update</button>
+                    </li>
                     )
             }
         </ul>

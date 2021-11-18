@@ -1,5 +1,5 @@
 import {useState} from "react";
-const ListInput = ({onSubmit})=>{
+const ListInput = ({onSubmit,showActiveList})=>{
     const [state,setState] = useState({
         id:1,
         title: "",
@@ -20,6 +20,7 @@ const ListInput = ({onSubmit})=>{
             <input placeholder="Name" name="title" value={state.title} onChange={handleChange}/>
             <input placeholder="Description" name="description" value={state.description} onChange={handleChange}/>
             <button onClick={onAdd}>Add</button>
+            <button onClick={showActiveList}>showActiveList</button>
         </div>    
     )
 }

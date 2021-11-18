@@ -20,9 +20,12 @@ const List = ()=>{
         const updateList = list.map(item=> item.id === id && item.status === "active"?{...item,status:"offline"}:{...item,status:"active"})
         setList(updateList)
     }
+    const activeList = (id)=>{
+        setList(list.filter((item)=> item.status === "active"))
+    }
     return(
         <>
-        <ListInput onSubmit={handleSubmit}/>
+        <ListInput onSubmit={handleSubmit} showActiveList={activeList}/>
         <ListItem  data={list} handleDelete={handleDelete} updateStatus={handleUpdate}/>
         </>
     )
