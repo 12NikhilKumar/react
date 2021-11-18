@@ -12,16 +12,17 @@ const ListInput = ({onSubmit,showActiveList})=>{
             [e.target.name]: e.target.value
         });
     }
-    const onAdd = ()=>{
+    const onAdd = (e)=>{
+        preventDefault(e);
         onSubmit(state);
     }
     return (
-        <div>
+        <form>
             <input placeholder="Name" name="title" value={state.title} onChange={handleChange}/>
             <input placeholder="Description" name="description" value={state.description} onChange={handleChange}/>
-            <button onClick={onAdd}>Add</button>
+            <input type="submit" onClick={onAdd}>Add</input>
             <button onClick={showActiveList}>showActiveList</button>
-        </div>    
+        </form>    
     )
 }
 export default ListInput;
