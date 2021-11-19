@@ -1,9 +1,9 @@
 import './App.css';
-import Food from './Component/food'
+import Rest from './Component1/rest';
 function App() {
   return (
     <div className = "App App-header">
-      <Food/>
+      <Rest/>
     </div>
   );
 }
