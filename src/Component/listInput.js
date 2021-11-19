@@ -13,14 +13,14 @@ const ListInput = ({onSubmit,showActiveList})=>{
         });
     }
     const onAdd = (e)=>{
-        preventDefault(e);
+        e.preventDefault();
         onSubmit(state);
     }
     return (
-        <form>
+        <form onSubmit={onAdd}>
             <input placeholder="Name" name="title" value={state.title} onChange={handleChange}/>
             <input placeholder="Description" name="description" value={state.description} onChange={handleChange}/>
-            <input type="submit" onClick={onAdd}>Add</input>
+            <input type="submit" value="add"></input>
             <button onClick={showActiveList}>showActiveList</button>
         </form>    
     )
