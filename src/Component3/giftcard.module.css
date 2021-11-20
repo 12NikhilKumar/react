@@ -1,0 +1,18 @@
+.box {
+    width: 640px;
+    height: 380px;
+    color: black;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.button {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
