@@ -19,7 +19,7 @@ function Rest(){
         <>
         <Navbar handleRating={handleRating} handlePayment={handlePayment}/>
         <div className={styles.grid}>
-        {data.filter(item => item.rating > state).map(item => (
+        {data.filter(item => item.rating > state ).map(item =>  (
             <RestItems key={item.id} data={item}/>
         ))}
         </div>
