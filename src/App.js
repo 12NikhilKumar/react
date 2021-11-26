@@ -1,9 +1,9 @@
 import './App.css';
-import Effect from './Componen4/useeffect'
+import Stopwatch from './Component5/stopwatch';
 function App() {
   return (
     <div className = "App App-header">
-     <Effect/>
+     <Stopwatch/>
     </div>
   );
 }
