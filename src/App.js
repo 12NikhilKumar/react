@@ -1,9 +1,9 @@
 import './App.css';
-import Stopwatch from './Component5/stopwatch';
+import Clock from './Component5/clock';
 function App() {
   return (
     <div className = "App App-header">
-     <Stopwatch/>
+     <Clock start={5} end={10}/>
     </div>
   );
 }
