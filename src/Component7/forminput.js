@@ -1,8 +1,11 @@
 import {useState,useRef} from "react";
-const FormInput = () =>{
+const FormInput = ({onTaskCreate}) =>{
     const initialState = {
         name: "",
         sex: "",
+        age: "",
+        addres: "",
+        salary: "",
         ismaried: ""
     };
     const [formData,setFormData] = useState(initialState);
@@ -14,12 +17,22 @@ const FormInput = () =>{
     };
     const onSubmit = (e)=>{
         e.preventDefault();
+        onTaskCreate(formData)
     }
-    const {name,sex,ismaried} = formData;
+    const {name,age,addres,salary,sex,ismaried} = formData;
     return (
         <>
             <form onSubmit={onSubmit}>
                 <input type="text" placeholder="Enter your name" name="name" value={name} onChange={handleChange}/>
+                <br/>
+                <br/>
+                <input type="text" placeholder="Enter your age" name="age" value={age} onChange={handleChange}/>
+                <br/>
+                <br/>
+                <input type="text" placeholder="Enter your addres" name="addres" value={addres} onChange={handleChange}/>
+                <br/>
+                <br/>
+                <input type="text" placeholder="Enter your salry" name="salary" value={salary} onChange={handleChange}/>
                 <br/>
                 <br/>
                 <label>
@@ -31,7 +44,9 @@ const FormInput = () =>{
                     <option value="F">Female</option>
                 </select>
                 <br/><br/>
+                <label> Uplod your pic
                 <input type="file" ref={fileRef}/>
+                </label>
                 <br/><br/>
                 <input type="submit" value="Save your details"/>
             </form>
