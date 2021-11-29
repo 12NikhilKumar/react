@@ -1,9 +1,9 @@
 import './App.css';
-import Todo from './Component6/todo';
+import Ref from './Component7/ref'
 function App() {
   return (
     <div className = "App App-header">
-     <Todo/>
+    <Ref/>
     </div>
   );
 }
