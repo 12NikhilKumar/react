@@ -1,9 +1,9 @@
 import './App.css';
-import Ref from './Component7/ref'
+import Form from './Component7/form';
 function App() {
   return (
     <div className = "App App-header">
-    <Ref/>
+    <Form/>
     </div>
   );
 }
