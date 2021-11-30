@@ -1,9 +1,9 @@
 import './App.css';
-import Git from './Component8/git';
+import Axios from './Component8/axio';
 function App() {
   return (
     <div className = "App App-header">
-    <Git/>
+    <Axios/>
     </div>
   );
 }
