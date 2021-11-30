@@ -1,9 +1,9 @@
 import './App.css';
-import Form from './Component7/form';
+import Axios from './Component8/axio';
 function App() {
   return (
     <div className = "App App-header">
-    <Form/>
+    <Axios/>
     </div>
   );
 }
