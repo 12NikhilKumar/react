@@ -8,11 +8,7 @@
     height: 55%;
     padding: 20px;
 }
-.card .flex {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
 .card  {
     background-color:white;
+    color: black;
 }
