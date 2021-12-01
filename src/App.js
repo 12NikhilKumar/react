@@ -1,9 +1,16 @@
 import './App.css';
-import Axios from './Component8/axio';
+import {useState} from "react";
+import Timer from './Component9/googletimer';
+import Stopwatch from './Component9/googlestopwatch';
 function App() {
+  const [isLoading,setLoading] = useState(false);
+  const handleClick = ()=>{
+    setLoading(!isLoading);
+  }
   return (
     <div className = "App App-header">
-    <Axios/>
+    {isLoading ?(<Timer/>):(<Stopwatch/>)}
+    <button onClick={handleClick}>Change</button>
     </div>
   );
 }
