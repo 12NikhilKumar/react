@@ -1,79 +1,125 @@
 {
-  "Tasks": [
+  "Cars": [
     {
-      "id": 1,
-      "Task": "coding",
-      "Status": "unactive"
+      "id": "1",
+      "name": "xuv700",
+      "type": "suv",
+      "year": "2020",
+      "price": 50000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 2,
-      "Task": "Dancing",
-      "Status": "unactive"
+      "id": "2",
+      "name": "xuv500",
+      "type": "suv",
+      "year": "2015",
+      "price": 40000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 3,
-      "Task": "Singing",
-      "Status": "unactive"
+      "id": "3",
+      "name": "scorpio",
+      "type": "suv",
+      "year": "2000",
+      "price": 10000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 4,
-      "Task": "Writing",
-      "Status": "unactive"
+      "id": "4",
+      "name": "bolero",
+      "type": "suv",
+      "year": "1990",
+      "price": 40000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 5,
-      "Task": "Watching",
-      "Status": "unactive"
+      "id": "5",
+      "name": "alt0",
+      "type": "hatchback",
+      "year": "2010",
+      "price": 50000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 6,
-      "Task": "Playing",
-      "Status": "unactive"
+      "id": "6",
+      "name": "nano",
+      "type": "hatchback",
+      "year": "2001",
+      "price": 50000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 7,
-      "Task": "Reding",
-      "Status": "unactive"
+      "id": "7",
+      "name": "creta",
+      "type": "compactsuv",
+      "year": "2005",
+      "price": 500000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 8,
-      "Task": "Teaching",
-      "Status": "active"
+      "id": "8",
+      "name": "ecosport",
+      "type": "compactsuv",
+      "year": "2012",
+      "price": 90000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 9,
-      "Task": "Coching",
-      "Status": "active"
+      "id": "9",
+      "name": "verna",
+      "type": "sedan",
+      "year": "2000",
+      "price": 50000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 10,
-      "Task": "Checking",
-      "Status": "active"
+      "id": "10",
+      "name": "dezire",
+      "type": "sedan",
+      "year": "2000",
+      "price": 50000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 11,
-      "Task": "Repairing",
-      "Status": "active"
+      "id": "11",
+      "name": "audi",
+      "type": "sedan",
+      "year": "2020",
+      "price": 500000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 12,
-      "Task": "Learning",
-      "Status": "active"
+      "id": "12",
+      "name": "mercedes",
+      "type": "sedan",
+      "year": "2019",
+      "price": 100000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 13,
-      "Task": "Listning",
-      "Status": "active"
+      "id": "13",
+      "name": "thar",
+      "type": "compactsuv",
+      "year": "1900",
+      "price": 80000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
     },
     {
-      "id": 14,
-      "Task": "Runing",
-      "Status": "active"
-    },
+      "id": "14",
+      "name": "indiac",
+      "type": "hatchback",
+      "year": "2001",
+      "price": 40000,
+      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
+    }
+  ],
+  "Orders": [
     {
-      "id": "161b6882-81d8-4150-83db-ec2cdcef2a51",
-      "Task": "nikhil",
-      "Status": "active"
+      "id": "fe92ce3c-9195-44cd-b3cc-eea8bf1172c7",
+      "name": "bolero",
+      "type": "suv",
+      "year": "2000",
+      "price": "20000"
     }
   ]
 }

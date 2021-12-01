@@ -1,16 +1,10 @@
 import './App.css';
-import {useState} from "react";
-import Timer from './Component9/googletimer';
-import Stopwatch from './Component9/googlestopwatch';
+import Carinput from './Component10/carinput';
+import Car from './Component10/car';
 function App() {
-  const [isLoading,setLoading] = useState(false);
-  const handleClick = ()=>{
-    setLoading(!isLoading);
-  }
   return (
     <div className = "App App-header">
-    {isLoading ?(<Timer/>):(<Stopwatch/>)}
-    <button onClick={handleClick}>Change</button>
+      <Car/>
     </div>
   );
 }
