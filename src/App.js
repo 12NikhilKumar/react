@@ -1,10 +1,9 @@
 import './App.css';
-import Sidebar from './Component11/sidebar'
-import ToolBar from './Component11/toolbar';
+import Form from './Component11/creditcard'
 function App() {
   return (
     <div className = "App App-header">
-      <ToolBar/>
+      <Form/>
     </div>
   );
 }
