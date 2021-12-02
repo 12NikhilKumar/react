@@ -1,10 +1,9 @@
 import './App.css';
-import Carinput from './Component10/carinput';
-import Car from './Component10/car';
+import Sidebar from './Component11/sidebar'
 function App() {
   return (
     <div className = "App App-header">
-      <Car/>
+      <Sidebar/>
     </div>
   );
 }
