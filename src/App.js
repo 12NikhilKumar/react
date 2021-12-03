@@ -1,9 +1,9 @@
 import './App.css';
-import Form from './Component11/creditcard'
+import {Navbar} from "./Component12/navbar"
 function App() {
   return (
     <div className = "App App-header">
-      <Form/>
+      <Navbar/>
     </div>
   );
 }

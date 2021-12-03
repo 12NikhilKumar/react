@@ -72,7 +72,7 @@ const Form = ()=> {
             <span>Payment amount 12500</span>
             <Button onClick={handlePayment}>PAY</Button>
         </div>
-        {loding===true?(<Card number={data.number} name={data.name} date={data.date} month={data.month} year={data.expiry}/>):(<>"plese fill the details"</>)}
+        {loding?(<Card number={data.number} name={data.name} date={data.date} month={data.month} year={data.expiry}/>):(<>"plese fill the details"</>)}
         </>
     )
 }
