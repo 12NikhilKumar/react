@@ -1,12 +1,10 @@
 import './App.css';
-import {Navbar} from "./Component12/navbar"
 import React from "react"
-import {Appcontext} from './Context/context'
+import Body from './Component13/navbar';
 function App() {
-  const {theme} = React.useContext(Appcontext);
   return (
-    <div style={{ background:`${theme}`}} className = "App App-header">
-      <Navbar/>
+    <div style={{ background:'grey'}} className = "App App-header">
+      <Body/>
     </div>
   );
 }
