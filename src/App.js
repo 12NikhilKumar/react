@@ -1,10 +1,12 @@
 import './App.css';
 import React from "react"
-import Body from './Component13/navbar';
+import Navbar from './Component14/router';
+import AllRoutes from './routes/Allroutes'
 function App() {
   return (
-    <div style={{ background:'grey'}} className = "App App-header">
-      <Body/>
+    <div className = "App App-header">
+      <Navbar/>
+      <AllRoutes/>
     </div>
   );
 }
