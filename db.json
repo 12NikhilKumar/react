@@ -1,125 +1,54 @@
 {
-  "Cars": [
+  "items": [
     {
-      "id": "1",
-      "name": "xuv700",
-      "type": "suv",
-      "year": "2020",
-      "price": 50000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
+      "id": 1,
+      "product_name": "Turkey - Breast, Double",
+      "image_url": "http://dummyimage.com/200x200.jpg/dddddd/000000",
+      "description": "dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla",
+      "price": 987,
+      "quantity": 1
     },
     {
-      "id": "2",
-      "name": "xuv500",
-      "type": "suv",
-      "year": "2015",
-      "price": 40000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
+      "id": 2,
+      "product_name": "Bread - Burger",
+      "image_url": "http://dummyimage.com/200x200.png/dddddd/000000",
+      "description": "felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices",
+      "price": 763,
+      "quantity": 1
     },
     {
-      "id": "3",
-      "name": "scorpio",
-      "type": "suv",
-      "year": "2000",
-      "price": 10000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
-    },
-    {
-      "id": "4",
-      "name": "bolero",
-      "type": "suv",
-      "year": "1990",
-      "price": 40000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
-    },
-    {
-      "id": "5",
-      "name": "alt0",
-      "type": "hatchback",
-      "year": "2010",
-      "price": 50000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
-    },
-    {
-      "id": "6",
-      "name": "nano",
-      "type": "hatchback",
-      "year": "2001",
-      "price": 50000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
-    },
-    {
-      "id": "7",
-      "name": "creta",
-      "type": "compactsuv",
-      "year": "2005",
-      "price": 500000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
-    },
-    {
-      "id": "8",
-      "name": "ecosport",
-      "type": "compactsuv",
-      "year": "2012",
-      "price": 90000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
-    },
-    {
-      "id": "9",
-      "name": "verna",
-      "type": "sedan",
-      "year": "2000",
-      "price": 50000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
-    },
-    {
-      "id": "10",
-      "name": "dezire",
-      "type": "sedan",
-      "year": "2000",
-      "price": 50000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
-    },
-    {
-      "id": "11",
-      "name": "audi",
-      "type": "sedan",
-      "year": "2020",
-      "price": 500000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
-    },
-    {
-      "id": "12",
-      "name": "mercedes",
-      "type": "sedan",
-      "year": "2019",
-      "price": 100000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
-    },
-    {
-      "id": "13",
-      "name": "thar",
-      "type": "compactsuv",
-      "year": "1900",
-      "price": 80000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
-    },
-    {
-      "id": "14",
-      "name": "indiac",
-      "type": "hatchback",
-      "year": "2001",
-      "price": 40000,
-      "url": "https://images.news18.com/ibnlive/uploads/2021/08/mahindra-xuv700.jpeg"
+      "id": 3,
+      "product_name": "Beans - Kidney White",
+      "image_url": "http://dummyimage.com/200x200.jpg/ff4444/ffffff",
+      "description": "posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi",
+      "price": 231,
+      "quantity": 1
     }
   ],
-  "Orders": [
+  "cart": [
     {
-      "id": "fe92ce3c-9195-44cd-b3cc-eea8bf1172c7",
-      "name": "bolero",
-      "type": "suv",
-      "year": "2000",
-      "price": "20000"
+      "id": 1,
+      "product_name": "Turkey - Breast, Double",
+      "image_url": "http://dummyimage.com/200x200.jpg/dddddd/000000",
+      "description": "dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla",
+      "price": 987,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "product_name": "Bread - Burger",
+      "image_url": "http://dummyimage.com/200x200.png/dddddd/000000",
+      "description": "felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices",
+      "price": 763,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "product_name": "Beans - Kidney White",
+      "image_url": "http://dummyimage.com/200x200.jpg/ff4444/ffffff",
+      "description": "posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi",
+      "price": 231,
+      "quantity": 1
     }
   ]
 }

@@ -13,7 +13,7 @@ export default function Productinfo(){
             axios(config)
             .then((res)=>{
                 setData(res.data)
-            },[])
+            },[id])
         })
     return (
         <>
