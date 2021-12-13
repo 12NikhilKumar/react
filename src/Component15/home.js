@@ -35,11 +35,12 @@ const Home = () => {
         console.log(item);
     }
     const  handleIncrese = async(item)=>{
+        const value = item.price+=1;
         const config = {
             method: "patch",
             url: `http://localhost:3000/items/${item.id}`,
             data:{
-                "quantity" : item.quantity++
+                "quantity" : value
             }
         }
         const update = await axios(config)

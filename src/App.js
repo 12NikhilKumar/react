@@ -1,18 +1,27 @@
 import './App.css';
 import React from "react"
-import CartcontextProvider from './Cartcontext/cartcontext';
-import CardDetails from './Component15/carddetails';
-import Navbar from './Component15/navbar';
-import Cartroute from './cartroutes/cartroutes';
+import Form from './MaterialuiComponent/form';
+import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
+import blue from "@mui/material/colors/blue";
+import red from "@mui/material/colors/red";
 function App() {
+  const theme = createTheme({
+    palette : {
+      primary : blue
+    }
+  })
+  const darkTheme = createTheme({
+    palette : {
+      primary : red,
+      secondary : blue
+    }
+  })
   return (
     <div className = "App App-header">
-      <CartcontextProvider>
-        <Navbar/>
-        <Cartroute/>
-      </CartcontextProvider>
+      <ThemeProvider theme={darkTheme}>
+        <Form/>
+      </ThemeProvider>
     </div>
   );
 }
-
 export default App;
