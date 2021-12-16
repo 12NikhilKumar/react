@@ -4,13 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import {AppcontextProvider} from './redux/reduxcontextprovoder'
 
 ReactDOM.render(
-  <BrowserRouter>
+  <AppcontextProvider>
     <React.StrictMode>
       <App />
     </React.StrictMode>
-    </BrowserRouter>,
+    </AppcontextProvider>,
   document.getElementById('root')
 );
 

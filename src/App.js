@@ -1,26 +1,15 @@
 import './App.css';
 import React from "react"
-import Form from './MaterialuiComponent/form';
-import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
-import blue from "@mui/material/colors/blue";
-import red from "@mui/material/colors/red";
+import { Appcontext } from './redux/reduxcontextprovoder';
+import Counter from './count/counter';
 function App() {
-  const theme = createTheme({
-    palette : {
-      primary : blue
-    }
-  })
-  const darkTheme = createTheme({
-    palette : {
-      primary : red,
-      secondary : blue
-    }
-  })
+  const {getState} = React.useContext(Appcontext);
+  const {count} = getState();
   return (
     <div className = "App App-header">
-      <ThemeProvider theme={darkTheme}>
-        <Form/>
-      </ThemeProvider>
+      <h1>hello</h1>
+      <h2>{count}</h2>
+      <Counter/>
     </div>
   );
 }
